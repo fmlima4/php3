@@ -4,6 +4,12 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
+        "classmap": [
+            "./Teste.php"
+        ],
+        "files": [
+            "./functions.php"
+        ],
         "psr-4": {
             "Fmlima4\\BuscadorDeCursos\\": "src/"
         }
@@ -18,5 +24,8 @@
         "guzzlehttp/guzzle": "^7.4",
         "symfony/dom-crawler": "^4.2",
         "symfony/css-selector": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
     }
 }
