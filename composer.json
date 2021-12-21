@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fmlima4\\BuscaCursoAlura\\": "src/"
+            "Fmlima4\\BuscadorDeCursos\\": "src/"
         }
     },
     "authors": [
